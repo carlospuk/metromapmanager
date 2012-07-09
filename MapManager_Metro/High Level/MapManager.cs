@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Windows.UI;
 using Windows.UI.Xaml;
 
 
@@ -20,21 +21,43 @@ namespace FatAttitude.Utilities.Metro.Mapping
     {
         // Public members
         public IMapMarkerSource markerSource;
+        // Events
+        public event EventHandler<CalloutButtonTappedEventArgs> Callout_ButtonTapped;
 
         // Private Members
         private Map map;
         AnnotationManager annotationManager;
         CalloutManager calloutManager;
+        PolylineManager polylineManager;
 
         public MapManager(Map _map)
         {
+            // Map itself
             this.map = _map;
+            _map.TappedOverride += _map_TappedOverride;
+
             annotationManager = new AnnotationManager(this.map );
             annotationManager.markerSource = this;
             annotationManager.feedbackObject = this;
 
             calloutManager = new CalloutManager(this.map);
+            calloutManager.Callout_ButtonTapped += calloutManager_Callout_ButtonTapped;
+
+            polylineManager = new PolylineManager(this.map);
         }
+
+
+
+
+
+
+        #region Tap on Map
+        void _map_TappedOverride(object sender, Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
+        {
+            calloutManager.hideCallout();
+        }
+        #endregion
+
 
         #region Annotations
         /// <summary>
@@ -89,9 +112,27 @@ namespace FatAttitude.Utilities.Metro.Mapping
             
             calloutManager.displayCallout(annotation, annotationElement);
         }
+        void calloutManager_Callout_ButtonTapped(object sender, CalloutButtonTappedEventArgs e)
+        {
+            if (this.Callout_ButtonTapped != null)
+                this.Callout_ButtonTapped(this, e);
+        }
         #endregion
 
-
+        #region Polylines
+        public void addPolyline(IMapPolyline polylineSource, Color color, double width)
+        {
+            polylineManager.addPolyline(polylineSource, color, width);
+        }
+        public void removePolyline(IMapPolyline polylineSource)
+        {
+            polylineManager.removePolyline(polylineSource);
+        }
+        public void removeAllPolylines()
+        {
+            polylineManager.removeAllPolylines();
+        }
+        #endregion
 
 
 

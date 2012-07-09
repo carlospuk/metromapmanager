@@ -18,6 +18,9 @@ namespace FatAttitude.Utilities.Metro.Mapping
 {
     public sealed partial class MapCallout : UserControl
     {
+        public event EventHandler<TappedRoutedEventArgs> Callout_Tapped;
+        public event EventHandler<EventArgs> Callout_Disappeared;
+
         public MapCallout()
         {
             this.InitializeComponent();
@@ -25,6 +28,21 @@ namespace FatAttitude.Utilities.Metro.Mapping
             this.DataContext = this;
         }
 
+        public void animateOnscreen()
+        {
+            storyboardAppearance.Begin();
+        }
+        public void animateOffscreen()
+        {
+            storyboardDisappearance.Begin();
+            storyboardDisappearance.Completed += storyboardDisappearance_Completed;
+        }
+
+        void storyboardDisappearance_Completed(object sender, object e)
+        {
+            if (this.Callout_Disappeared != null)
+                this.Callout_Disappeared(this, new EventArgs());
+        }
 
         #region Own data context - if required
         // Title
@@ -52,6 +70,12 @@ namespace FatAttitude.Utilities.Metro.Mapping
             set { SetValue(DetailTextProperty, value); }
         }
         #endregion
+
+        private void Ellipse_Tapped_1(object sender, TappedRoutedEventArgs e)
+        {
+            if (this.Callout_Tapped != null)
+                this.Callout_Tapped(this, e); // be sure to pass 'this'  (ie not the button) so we can use the MallCalout.DataContext to track the corresponding annotation
+        }
 
 
     }

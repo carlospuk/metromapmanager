@@ -16,21 +16,21 @@
     <AppXManifest Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-07-09T16:22:29.713</Modified>
+      <Modified>2012-07-09T21:43:20.956</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\MapUtilitiesSample.exe">
       <PackagePath>MapUtilitiesSample.exe</PackagePath>
-      <Modified>2012-07-09T16:54:21.220</Modified>
+      <Modified>2012-07-09T21:46:05.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\MapUtilitiesSample.pdb">
       <PackagePath>MapUtilitiesSample.pdb</PackagePath>
-      <Modified>2012-07-09T16:54:21.208</Modified>
+      <Modified>2012-07-09T21:46:05.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.pdb">
       <PackagePath>MapUtilities_Metro.pdb</PackagePath>
-      <Modified>2012-07-09T16:54:09.419</Modified>
+      <Modified>2012-07-09T21:43:19.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carl\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -42,7 +42,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.dll">
       <PackagePath>MapUtilities_Metro.dll</PackagePath>
-      <Modified>2012-07-09T16:54:09.431</Modified>
+      <Modified>2012-07-09T21:43:19.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carl\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\x86\Bing.Maps.dll">
       <PackagePath>Bing.Maps.dll</PackagePath>
@@ -315,46 +315,46 @@
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-19T16:54:48.000</Modified>
+      <Modified>2012-07-09T21:41:09.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-19T16:54:48.000</Modified>
+      <Modified>2012-07-09T21:41:09.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-19T16:54:48.000</Modified>
+      <Modified>2012-07-09T21:41:09.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-19T16:54:48.000</Modified>
+      <Modified>2012-07-09T21:41:09.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2012-04-23T21:03:16.000</Modified>
+      <Modified>2012-07-09T21:41:09.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2012-07-09T16:22:52.814</Modified>
+      <Modified>2012-07-09T21:46:05.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\Map Markers\RoundMapMarker.xaml">
       <PackagePath>Map Markers\RoundMapMarker.xaml</PackagePath>
-      <Modified>2012-07-09T16:10:14.432</Modified>
+      <Modified>2012-07-09T21:41:09.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\Map Markers\SquareMapMarker.xaml">
       <PackagePath>Map Markers\SquareMapMarker.xaml</PackagePath>
-      <Modified>2012-07-09T16:10:10.728</Modified>
+      <Modified>2012-07-09T21:41:09.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2012-07-09T14:57:40.608</Modified>
+      <Modified>2012-07-09T21:41:09.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\Lower Level\Callouts\MapCallout.xaml">
       <PackagePath>MapUtilities_Metro\Lower Level\Callouts\MapCallout.xaml</PackagePath>
-      <Modified>2012-07-09T14:18:37.221</Modified>
+      <Modified>2012-07-09T21:34:19.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\DefaultMapMarker.xaml">
       <PackagePath>MapUtilities_Metro\DefaultMapMarker.xaml</PackagePath>
@@ -362,7 +362,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-07-09T16:22:29.496</Modified>
+      <Modified>2012-07-09T21:43:20.674</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -23,6 +23,8 @@ namespace FatAttitude.Utilities.Metro.Mapping
         // Public Add/Remove methods
         public void addAnnotations(IEnumerable<IMapAnnotation> newAnnotations)
         {
+            if (newAnnotations == null) return;
+
             bool anyNewAnnotations = false;
 
             HashSet<IMapAnnotation> annotationsAdded = new HashSet<IMapAnnotation>();
@@ -44,6 +46,8 @@ namespace FatAttitude.Utilities.Metro.Mapping
         }
         public void removeAnnotations(IEnumerable<IMapAnnotation> annotationsToRemove)
         {
+            if (annotationsToRemove == null) return;
+
             bool anyChanges = false;
 
             HashSet<IMapAnnotation> annotationsRemoved = new HashSet<IMapAnnotation>();
@@ -67,6 +71,8 @@ namespace FatAttitude.Utilities.Metro.Mapping
         }
         public void setAnnotations(IEnumerable<IMapAnnotation> requiredAnnotations)
         {
+            if (requiredAnnotations == null) return;
+
             List<IMapAnnotation> annotationsToRemove = annotations.Except(requiredAnnotations).ToList();
             List<IMapAnnotation> annotationsToAdd = requiredAnnotations.Except(annotations).ToList();
 

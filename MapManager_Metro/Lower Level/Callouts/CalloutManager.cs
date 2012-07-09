@@ -18,13 +18,13 @@ namespace FatAttitude.Utilities.Metro.Mapping
         Map map;
         
         MapLayer calloutLayer;
-        MapCallout callout;
+        MapCallout lastCallout = null;
 
         const int CALLOUT_ANCHOR_X = 145;
         const int CALLOUT_ANCHOR_Y = 130;
 
         // Delegate methods
-        public IAnnotationManagerFeedback myDelegate { get; set; }
+        public event EventHandler<CalloutButtonTappedEventArgs> Callout_ButtonTapped;
 
         public CalloutManager(Map map)
         {
@@ -34,24 +34,25 @@ namespace FatAttitude.Utilities.Metro.Mapping
             // Layer to hold the annotations
             calloutLayer = new MapLayer();
             map.Children.Add(calloutLayer);
-
-            initialiseCallout();
         }
 
-        private void initialiseCallout()
-        {
-            // There is only ever one callout
-            callout = new MapCallout();
-            callout.Visibility = Visibility.Collapsed;
-            calloutLayer.Children.Add(callout);
-        }
-        
 
+
+        #region Show/Hide
         public void displayCallout(IMapAnnotation annotation, IAnnotationMarker annotationElement)
         {
+            // Hide any existing callout
+            hideCallout();
+
+            // There is only ever one callout
+            MapCallout callout = new MapCallout();
+            calloutLayer.Children.Add(callout);
+            
+            // Hook up tap event
+            callout.Callout_Tapped += callout_Callout_Tapped;
+
             // Assign this annotation as the data context of the callout - so it can get Title, Subtitle, etc
             callout.DataContext = annotation;
-
 
             // Position
             MapLayer.SetPosition(callout, new Location(annotation.Latitude, annotation.Longitude));
@@ -62,24 +63,54 @@ namespace FatAttitude.Utilities.Metro.Mapping
                 CALLOUT_ANCHOR_Y + annotationElement.PositionAnchor.Y));
             
 
-            // Todo: animated appearance 
-            callout.Visibility = Visibility.Visible;
+            // Appear
+            
+            callout.animateOnscreen();
 
             Point offsetRequired;
-            if (!isCalloutInView(out offsetRequired))
+            if (!isCalloutInView(callout, out offsetRequired))
                 map.scrollBy(offsetRequired);
+
+            // Store for later
+            lastCallout = callout;
                 
         }
         public void hideCallout()
         {
-            // Todo: animated disappearance
+            if (lastCallout == null) return;
 
-            callout.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            // Unhook tapped event
+            lastCallout.Callout_Tapped -= callout_Callout_Tapped;
+
+            // Animate disappearance
+            lastCallout.Callout_Disappeared += lastCallout_Callout_Disappeared;
+            lastCallout.animateOffscreen();
+            lastCallout = null;
         }
 
+        void lastCallout_Callout_Disappeared(object sender, EventArgs e)
+        {
+            MapCallout co = (MapCallout)sender;
+            co.Callout_Disappeared -= lastCallout_Callout_Disappeared;
 
+            calloutLayer.Children.Remove(co);
+        }
+        #endregion
 
-        bool isCalloutInView(out Point offsetRequired)
+        // Tap Callout
+        void callout_Callout_Tapped(object sender, Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
+        {
+            if (!(sender is MapCallout)) return;
+            MapCallout c = (MapCallout)sender;
+            if (!(c.DataContext is IMapAnnotation)) return;
+            IMapAnnotation annotation = (IMapAnnotation)c.DataContext;
+
+            if (this.Callout_ButtonTapped != null)
+                this.Callout_ButtonTapped(this, new CalloutButtonTappedEventArgs(0, annotation));
+        }
+
+        // Helpers
+        bool isCalloutInView(MapCallout callout, out Point offsetRequired)
         {
             offsetRequired = new Point();
             Location calloutLocation = MapLayer.GetPosition(callout);
@@ -115,4 +146,17 @@ namespace FatAttitude.Utilities.Metro.Mapping
             return (offsetXRequired == 0) && (offsetYRequired == 0);
         }
     }
+
+    public class CalloutButtonTappedEventArgs : EventArgs
+    {
+        public int ButtonIndex { get; set; }
+        public IMapAnnotation Annotation { get; set; }
+
+        public CalloutButtonTappedEventArgs(int buttonIndex, IMapAnnotation annotation)
+        {
+            this.ButtonIndex = buttonIndex;
+            this.Annotation = annotation;
+        }
+    }
+
 }

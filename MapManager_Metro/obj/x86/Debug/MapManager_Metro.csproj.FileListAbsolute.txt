@@ -12,6 +12,10 @@ H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\Lower 
 H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\DefaultMapMarker.xaml
 H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\MapUtilities_Metro.dll
 H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\MapUtilities_Metro.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\priconfig.xml.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\layout.resfiles.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\resources.resfiles.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\pri.resfiles.intermediate
 H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\priconfig.xml
 H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\layout.resfiles
 H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\resources.resfiles

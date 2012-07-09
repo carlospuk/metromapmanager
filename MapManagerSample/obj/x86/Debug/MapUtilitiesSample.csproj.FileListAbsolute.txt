@@ -110,3 +110,7 @@ H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\Ma
 H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\obj\x86\Debug\pri.resfiles
 H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\obj\x86\Debug\LanguageQualifiers.txt
 H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\obj\x86\Debug\ProjectArchitectures.txt
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\obj\x86\Debug\priconfig.xml.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\obj\x86\Debug\layout.resfiles.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\obj\x86\Debug\resources.resfiles.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\obj\x86\Debug\pri.resfiles.intermediate

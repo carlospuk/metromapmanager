@@ -17,6 +17,11 @@
             </bm:Map.Center>
 
         </bm:Map>
+        
+        <TextBlock Text="Click on a marker to view the callout" Width="600" Height="30"
+                   HorizontalAlignment="Left" VerticalAlignment="Top"
+                   FontSize="32" Foreground="Black" Margin="20" FontWeight="Bold"></TextBlock>
+        
     </Grid>
 </Page>
 

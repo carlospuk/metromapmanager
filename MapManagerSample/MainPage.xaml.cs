@@ -52,6 +52,9 @@ namespace MapUtilitiesSample
             // Add our sample data to the map - annotations and callouts will appear automatically
             mm.addAnnotations(restaurants);
             mm.addAnnotations(museums);
+
+            // You can also add polylines to the map from an object that supports the correct interface
+            // mm.addPolyline(polylineSource, Windows.UI.Colors.Blue, 6);
         }
 
 

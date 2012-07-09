@@ -121,6 +121,8 @@
     <Compile Include="High Level\MapExtensionMethods.cs" />
     <Compile Include="High Level\MapManager.cs" />
     <Compile Include="Lower Level\Annotations\IMapAnnotation.cs" />
+    <Compile Include="Lower Level\Polylines\IMapPolyline.cs" />
+    <Compile Include="Lower Level\Polylines\PolylineManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DefaultMapMarker.xaml.cs">
       <DependentUpon>DefaultMapMarker.xaml</DependentUpon>

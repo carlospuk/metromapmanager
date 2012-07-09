@@ -93,6 +93,9 @@ namespace FatAttitude.Utilities.Metro.Mapping
             {
                 IMapAnnotation tappedAnnotation = annotationForUIElement((UIElement)sender);
                 feedbackObject.MapAnnotationClicked(tappedAnnotation);
+
+                // Register that we've handled the tap; prevents the map.TappedOverride event also handling this and dismissing the annotation
+                e.Handled = true;
             }
             catch
             {
