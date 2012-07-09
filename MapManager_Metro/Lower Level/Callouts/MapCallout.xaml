@@ -77,8 +77,8 @@
                         <Ellipse Width="30" Height="30"
                             Fill="Cyan"
                                  Tapped="Ellipse_Tapped_1">
-                            
                         </Ellipse>
+
                     
             </Grid>
             
