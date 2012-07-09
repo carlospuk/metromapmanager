@@ -22,6 +22,7 @@ namespace FatAttitude.Utilities.Metro.Mapping
 
         // Delegate methods
         public IAnnotationManagerFeedback feedbackObject { get; set; }
+        public IMapMarkerSource markerSource { get; set; }
 
         public AnnotationManager(Map map)
         {
@@ -60,7 +61,7 @@ namespace FatAttitude.Utilities.Metro.Mapping
             foreach (IMapAnnotation item in e.annotationsAdded)
             {
                 // We need the IAnnotationMarker to get the position anchor information
-                IAnnotationMarker newAnnotationMarker = feedbackObject.MarkerForAnnotation(item);
+                IAnnotationMarker newAnnotationMarker = markerSource.MarkerForAnnotation(item);
 
                 // Now cast to a normal UIElement
                 UIElement newElement = (UIElement)newAnnotationMarker;

@@ -16,10 +16,10 @@ using Bing.Maps;
 
 namespace FatAttitude.Utilities.Metro.Mapping
 {
-    public class MapManager : IAnnotationManagerFeedback
+    public class MapManager : IAnnotationManagerFeedback, IMapMarkerSource
     {
         // Public members
-        public IMapManagerFeedback feedbackObject;
+        public IMapMarkerSource markerSource;
 
         // Private Members
         private Map map;
@@ -30,6 +30,7 @@ namespace FatAttitude.Utilities.Metro.Mapping
         {
             this.map = _map;
             annotationManager = new AnnotationManager(this.map );
+            annotationManager.markerSource = this;
             annotationManager.feedbackObject = this;
 
             calloutManager = new CalloutManager(this.map);
@@ -67,8 +68,8 @@ namespace FatAttitude.Utilities.Metro.Mapping
         public IAnnotationMarker MarkerForAnnotation(IMapAnnotation annotation)
         {
             // Calls back to our own delegate if it exists)
-            if (feedbackObject != null)
-                return feedbackObject.MarkerForAnnotation(annotation);
+            if (markerSource != null)
+                return markerSource.MarkerForAnnotation(annotation);
             else
                 return new DefaultMapMarker();
 

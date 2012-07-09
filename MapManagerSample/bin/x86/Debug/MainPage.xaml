@@ -11,7 +11,7 @@
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
         <bm:Map x:Name="bingMap" ZoomLevel="18" 
-        Credentials="Anc7aC2zl5dEKPH_jvEow879wKkY8DI8LNHSKSGL3b8OBceWeCP_oSzmy4ujjIjq"  >
+        Credentials="[INSERT_YOUR_BING_MAPS_KEY_HERE]"  >
             <bm:Map.Center>
                 <bm:Location Latitude="51.510033" Longitude="-0.134583" />
             </bm:Map.Center>

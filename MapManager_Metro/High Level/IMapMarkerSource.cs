@@ -8,7 +8,7 @@ using Windows.UI.Xaml;
 
 namespace FatAttitude.Utilities.Metro.Mapping
 {
-    public interface IMapManagerFeedback
+    public interface IMapMarkerSource
     {
         IAnnotationMarker MarkerForAnnotation(IMapAnnotation annotation);
 

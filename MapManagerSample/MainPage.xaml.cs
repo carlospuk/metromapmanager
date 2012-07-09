@@ -19,7 +19,7 @@ namespace MapUtilitiesSample
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page, IMapManagerFeedback
+    public sealed partial class MainPage : Page, IMapMarkerSource
     {
 
         #region Sample Data
@@ -47,7 +47,7 @@ namespace MapUtilitiesSample
             // Initialise the MapManager, passing it a reference to our map
             mm = new MapManager(bingMap);
             // We implement the feedback interface that says which map markers to use for each annotation
-            mm.feedbackObject = this;
+            mm.markerSource = this;
 
             // Add our sample data to the map - annotations and callouts will appear automatically
             mm.addAnnotations(restaurants);

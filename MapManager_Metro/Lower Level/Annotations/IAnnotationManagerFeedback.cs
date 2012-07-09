@@ -11,7 +11,6 @@ namespace FatAttitude.Utilities.Metro.Mapping
 {
     public interface IAnnotationManagerFeedback
     {
-        IAnnotationMarker MarkerForAnnotation(IMapAnnotation annotation);
         void MapAnnotationClicked(IMapAnnotation annotation);
     }
 }

@@ -113,7 +113,7 @@
     <Compile Include="Lower Level\Callouts\CalloutManager.cs" />
     <Compile Include="Lower Level\Annotations\IAnnotationManagerFeedback.cs" />
     <Compile Include="Lower Level\Markers\IAnnotationMarker.cs" />
-    <Compile Include="High Level\IMapManagerFeedback.cs" />
+    <Compile Include="High Level\IMapMarkerSource.cs" />
     <Compile Include="Lower Level\Callouts\MapCallout.xaml.cs">
       <DependentUpon>MapCallout.xaml</DependentUpon>
     </Compile>

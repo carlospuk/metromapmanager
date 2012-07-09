@@ -7,19 +7,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\MapUtilitiesSample.exe">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\MapUtilitiesSample.exe">
       <PackagePath>MapUtilitiesSample.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\MapUtilitiesSample.pdb">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\MapUtilitiesSample.pdb">
       <PackagePath>MapUtilitiesSample.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.pdb">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.pdb">
       <PackagePath>MapUtilities_Metro.pdb</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carl\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
@@ -28,7 +28,7 @@
     <AppxPackagedFile Include="C:\Users\Carl\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.xml">
       <PackagePath>Bing.Maps.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.dll">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.dll">
       <PackagePath>MapUtilities_Metro.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carl\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\x86\Bing.Maps.dll">
@@ -232,44 +232,44 @@
     <AppxPackagedFile Include="C:\Users\Carl\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\style.MapStyle">
       <PackagePath>Bing.Maps\style.MapStyle</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\Assets\Logo.png">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\MainPage.xaml">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\Map Markers\RoundMapMarker.xaml">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\Map Markers\RoundMapMarker.xaml">
       <PackagePath>Map Markers\RoundMapMarker.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\Map Markers\SquareMapMarker.xaml">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\Map Markers\SquareMapMarker.xaml">
       <PackagePath>Map Markers\SquareMapMarker.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\App.xaml">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\bin\x86\Debug\Lower Level\Callouts\MapCallout.xaml">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\Lower Level\Callouts\MapCallout.xaml">
       <PackagePath>MapUtilities_Metro\Lower Level\Callouts\MapCallout.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\bin\x86\Debug\DefaultMapMarker.xaml">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\DefaultMapMarker.xaml">
       <PackagePath>MapUtilities_Metro\DefaultMapMarker.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManagerSample\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

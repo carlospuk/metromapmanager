@@ -1,19 +1,42 @@
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.dll
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.pdb
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.pri
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\bin\x86\Debug\Bing.Maps.winmd
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\bin\x86\Debug\Bing.Maps.xml
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\Lower Level\Callouts\MapCallout.g.i.cs
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\Lower Level\Callouts\MapCallout.g.cs
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\DefaultMapMarker.g.i.cs
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\DefaultMapMarker.g.cs
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\XamlTypeInfo.g.cs
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\Lower Level\Callouts\MapCallout.xaml
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\DefaultMapMarker.xaml
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\MapUtilities_Metro.dll
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\MapUtilities_Metro.pdb
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\priconfig.xml
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\layout.resfiles
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\resources.resfiles
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\pri.resfiles
-H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\obj\x86\Debug\LanguageQualifiers.txt
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.dll
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.pri
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\bin\x86\Debug\Bing.Maps.winmd
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\bin\x86\Debug\Bing.Maps.xml
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\Lower Level\Callouts\MapCallout.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\Lower Level\Callouts\MapCallout.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\DefaultMapMarker.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\DefaultMapMarker.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\XamlTypeInfo.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\Lower Level\Callouts\MapCallout.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\DefaultMapMarker.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\MapUtilities_Metro.dll
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\MapUtilities_Metro.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\priconfig.xml
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\layout.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\resources.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\pri.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\MapManager_Metro\obj\x86\Debug\LanguageQualifiers.txt
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.dll
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\MapUtilities_Metro.pri
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\Bing.Maps.winmd
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\bin\x86\Debug\Bing.Maps.xml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\Lower Level\Callouts\MapCallout.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\Lower Level\Callouts\MapCallout.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\DefaultMapMarker.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\DefaultMapMarker.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\XamlTypeInfo.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\Lower Level\Callouts\MapCallout.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\DefaultMapMarker.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\MapUtilities_Metro.dll
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\MapUtilities_Metro.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\priconfig.xml.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\layout.resfiles.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\resources.resfiles.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\pri.resfiles.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\priconfig.xml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\layout.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\resources.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\pri.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\metromapmanager\MapManager_Metro\obj\x86\Debug\LanguageQualifiers.txt
