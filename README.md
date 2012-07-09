@@ -99,7 +99,20 @@ If you don't choose to implement IMapMarkerSource, a default (ugly) marker is us
 
 callouts
 ========
-Callouts appear automatically when a marker is tapped.  They scroll into view if partially off-screen.  Future editions are likely to include methods to deal with callouts being tapped, buttons on callouts, etc - all additions welcome via Push Requests.
+Callouts appear automatically when a marker is tapped.  They scroll into view if partially off-screen.  
+If the user taps the button on a callout, then the event Callout_ButtonTapped is fired by MapManager.
 
-At the moment, the XAML representing Callouts is very basic - all suggestions for improvement appreciated.
+polylines
+=========
+If an object supports the interface IMapPolyline then you can add it directly to the MapManager and a polyline will be drawn onto the map connecting all the locations:
+
+     mm.addPolyline(polylineObject, Windows.UI.Colors.Blue, 6);
+     
+The IMapPolyline interface is simply a public field 'Locations' that must return an IEnumerable<Location>, i.e. a collection of Bing Map Locations.
+     
+     
+
+development
+===========
+At the moment, the XAML and some of the code is a little basic - all suggestions for improvement appreciated.
 
