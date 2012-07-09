@@ -1,0 +1,76 @@
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\bin\x86\Debug\MapUtilitiesSample.exe
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\bin\x86\Debug\MapUtilitiesSample.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\bin\x86\Debug\resources.pri
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\bin\x86\Debug\AppxManifest.xml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\bin\x86\Debug\MapUtilitiesSample.build.appxrecipe
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\bin\x86\Debug\Bing.Maps.winmd
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\bin\x86\Debug\Bing.Maps.xml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\bin\x86\Debug\MapUtilities_Metro.dll
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\bin\x86\Debug\MapUtilities_Metro.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\bin\x86\Debug\MapUtilities_Metro.pri
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\MapUtilitiesSample.csprojResolveAssemblyReference.cache
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\App.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\App.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\Common\StandardStyles.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\Common\StandardStyles.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\MainPage.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\MainPage.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\Map Markers\RoundMapMarker.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\Map Markers\RoundMapMarker.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\Map Markers\SquareMapMarker.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\Map Markers\SquareMapMarker.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\XamlTypeInfo.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\App.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\Common\StandardStyles.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\MainPage.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\Map Markers\RoundMapMarker.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\Map Markers\SquareMapMarker.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\MapUtilitiesSample.exe
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\MapUtilitiesSample.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\MapUtilitiesSample.csproj.GenerateResource.Cache
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\priconfig.xml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\layout.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\resources.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\pri.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\LanguageQualifiers.txt
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapUtilities\MapUtilitiesSample\obj\x86\Debug\ProjectArchitectures.txt
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\MapUtilitiesSample.exe
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\MapUtilitiesSample.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\resources.pri
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\AppxManifest.xml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\MapUtilitiesSample.build.appxrecipe
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\Bing.Maps.winmd
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\Bing.Maps.xml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\MapUtilities_Metro.dll
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\MapUtilities_Metro.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\bin\x86\Debug\MapUtilities_Metro.pri
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\MapUtilitiesSample.csprojResolveAssemblyReference.cache
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\App.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\App.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\Common\StandardStyles.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\Common\StandardStyles.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\MainPage.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\MainPage.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\Map Markers\RoundMapMarker.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\Map Markers\RoundMapMarker.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\Map Markers\SquareMapMarker.g.i.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\Map Markers\SquareMapMarker.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\XamlTypeInfo.g.cs
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\App.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\Common\StandardStyles.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\MainPage.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\Map Markers\RoundMapMarker.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\Map Markers\SquareMapMarker.xaml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\MapUtilitiesSample.exe
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\MapUtilitiesSample.pdb
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\MapUtilitiesSample.csproj.GenerateResource.Cache
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\priconfig.xml.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\layout.resfiles.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\resources.resfiles.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\pri.resfiles.intermediate
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\priconfig.xml
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\layout.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\resources.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\pri.resfiles
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\LanguageQualifiers.txt
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\obj\x86\Debug\ProjectArchitectures.txt

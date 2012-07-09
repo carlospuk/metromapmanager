@@ -1,0 +1,2 @@
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManager_Metro\MapManager_Metro.csproj;x86
+H:\Users\Carl\Visual Studio\Projects\Metro\FAMapManagerGitHub\MapManagerSample\MapUtilitiesSample.csproj;x86
