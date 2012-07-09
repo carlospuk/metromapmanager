@@ -61,11 +61,19 @@ At the moment, the feedback interface consists of one simple method, which provi
         {
                 // Use a square map marker
                 return new SquareMapMarker();
-        ...
+        }
 
 
+You could choose to display different markers based on the type of annotation by testing, e.g
 
-This marker can be any UIElement, but it must implement IAnnotationMarker; a simple interface that specifies the anchor point of the annotation.  For example:
+        if (annotation is House)
+            return new HouseMapMarker()
+        else if (annotation is Hotel)
+            return new HotelMapMaker()
+        else...
+        
+           
+The marker that this method returns can be any UIElement, but it must implement IAnnotationMarker; a simple interface that specifies the anchor point of the annotation.  For example, here's how you would make a standard UserControl into a valid map marker:
 
     public sealed partial class SquareMapMarker : UserControl, IAnnotationMarker
     {
@@ -91,7 +99,7 @@ If you don't choose to implement IMapManagerFeedback, a default marker is used.
 
 callouts
 ========
-Callouts appear automatically and scroll into view if partially off-screen.
+Callouts appear automatically when a marker is tapped.  They scroll into view if partially off-screen.  Future editions are likely to include methods to deal with callouts being tapped, buttons on callouts, etc - all additions welcome via Push Requests.
 
 At the moment, the XAML representing Callouts is very basic - all suggestions for improvement appreciated.
 
