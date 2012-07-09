@@ -50,12 +50,12 @@ The annotations are added, along with appropriate callout balloons that display 
 
 markers
 =======
-To use custom map markers, you may also optionally provide the MapManager with a reference to an object that implements its feedback interface IMapManagerFeedback.  (this can be the same XAML page if you wish)
+To use custom map markers, you may also optionally provide the MapManager with a reference to an object that implements the interface IMapMarkerSource.  (this can be the same XAML page if you wish)
 
-            mm.feedbackObject = this;
+            mm.markerSource = this;
 
 
-At the moment, the feedback interface consists of one simple method, which provides the Map with a marker to display for a given annotation:
+This object provides the Map with a marker to display for a given annotation:
 
         public IAnnotationMarker MarkerForAnnotation(IMapAnnotation annotation)
         {
@@ -94,7 +94,7 @@ The marker that this method returns can be any UIElement, but it must implement 
     }
     
     
-If you don't choose to implement IMapManagerFeedback, a default marker is used.
+If you don't choose to implement IMapMarkerSource, a default (ugly) marker is used.
 
 
 callouts
