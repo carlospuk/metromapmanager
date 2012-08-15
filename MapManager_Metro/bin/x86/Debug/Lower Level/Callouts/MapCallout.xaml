@@ -78,10 +78,6 @@
                             Fill="Cyan"
                                                           >
                         </Ellipse>
-                
-                <TextBlock FontWeight="Bold" FontStyle="Italic" Text="i" FontSize="24" Foreground="#333333"
-                           HorizontalAlignment="Center" VerticalAlignment="Center"
-                           />
 
                     
             </Grid>
