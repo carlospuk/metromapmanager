@@ -12,5 +12,7 @@ namespace FatAttitude.Utilities.Metro.Mapping
     {
         IAnnotationMarker MarkerForAnnotation(IMapAnnotation annotation);
 
+        bool ShowCalloutForAnnotation(IMapAnnotation annotation);
+
     }
 }

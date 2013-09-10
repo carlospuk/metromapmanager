@@ -21,8 +21,10 @@ namespace FatAttitude.Utilities.Metro.Mapping
     {
         // Public members
         public IMapMarkerSource markerSource;
+
         // Events
         public event EventHandler<CalloutButtonTappedEventArgs> Callout_ButtonTapped;
+        public event EventHandler<AnnotationTappedEventArgs> Annotation_Tapped;
 
         // Private Members
         private Map map;
@@ -97,8 +99,23 @@ namespace FatAttitude.Utilities.Metro.Mapping
                 return new DefaultMapMarker();
 
         }
+
+        public bool ShowCalloutForAnnotation(IMapAnnotation annotation)
+        {
+            // Calls back to our own delegate if it exists)
+            if (markerSource != null)
+                return markerSource.ShowCalloutForAnnotation(annotation);
+            else
+                return true;
+
+        }
+
         public void MapAnnotationClicked(IMapAnnotation annotation)
         {
+            if (this.Annotation_Tapped != null) {
+                this.Annotation_Tapped(this, new AnnotationTappedEventArgs(annotation));
+            }
+
             displayCalloutForAnnotation(annotation);
         }
         #endregion
@@ -108,9 +125,11 @@ namespace FatAttitude.Utilities.Metro.Mapping
         #region Callouts
         void displayCalloutForAnnotation(IMapAnnotation annotation)
         {
-            IAnnotationMarker annotationElement = (IAnnotationMarker)annotationManager.UIElementForAnnotation(annotation);
+            if(this.ShowCalloutForAnnotation(annotation)) {
+                IAnnotationMarker annotationElement = (IAnnotationMarker)annotationManager.UIElementForAnnotation(annotation);
             
-            calloutManager.displayCallout(annotation, annotationElement);
+                calloutManager.displayCallout(annotation, annotationElement);
+            }
         }
         void calloutManager_Callout_ButtonTapped(object sender, CalloutButtonTappedEventArgs e)
         {
@@ -136,5 +155,16 @@ namespace FatAttitude.Utilities.Metro.Mapping
 
 
 
+    }
+
+
+    public class AnnotationTappedEventArgs : EventArgs
+    {
+        public IMapAnnotation Annotation { get; set; }
+
+        public AnnotationTappedEventArgs( IMapAnnotation annotation)
+        {
+            this.Annotation = annotation;
+        }
     }
 }
